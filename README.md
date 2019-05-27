@@ -1,2 +1,2 @@
-# Singh_I_Yang_S_Anglers_Website
-This is the midterm Client  Based Assignment .
+# singh_I_Anglers_Website
+This a client based project
