@@ -1,4 +1,7 @@
-﻿/*通用类*/
+﻿??*/
+
+
+
 *{
 	margin:0;
 	padding:0;	
@@ -81,7 +84,7 @@ div.clear{
 .line20{
 	font-size:1px;height:20px;width:100%;clear:both;	
 }
-/*wrapin 主体容器宽度*/
+/*wrapin ??????*/
 .wrapin{
 	width:960px;
 	margin-left:auto;
@@ -294,16 +297,3 @@ div.clear{
 }
 /* Contact us*/
 
-
-#contactUs
-{
-	Display:flex;
-	flex-direction:column;
-}
-
-.img
-{
-
-	width:350px;
-	height:200px;
-}
