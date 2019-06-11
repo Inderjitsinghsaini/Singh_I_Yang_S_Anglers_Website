@@ -1,15 +1,14 @@
 ##singh_I_Anglers_Website
 
-This project is Linked to The Anglers Website
+#This project is Linked to The Anglers Website
 
 
 
-Things Used
+#Things Used
 HTML
 CSS
 
-
-Applications Used
+#Applications Used
 Sublime Text 3
 Github
 
@@ -17,6 +16,6 @@ Github
 
 #Contributors
 
-Indejit Singh
+Inderjit Singh
 Shengrong Yang
 
