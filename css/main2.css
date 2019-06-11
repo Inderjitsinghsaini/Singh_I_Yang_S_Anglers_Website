@@ -172,6 +172,7 @@ em{
 	padding:20px 0;
 	margin:0 auto;
 	position: relative;
+	margin-top:50px;
 	 border: 1px solid;
   	padding: 10px;
  	 box-shadow: 2px 1px #D3D3D3;
@@ -230,7 +231,7 @@ em{
 	height: 54px;
 	line-height: 54px;
 	margin:0 auto;
-	margin-top: 30px;
+	margin-top: 40px;
 	background:#444;
 	color:#fff;
 	border:0;
@@ -251,4 +252,137 @@ em{
 	display: block;
 	width: 34px;
 	height: 34px;
+}
+
+/*about page*/
+.aboutPage
+{
+	display:flex;
+	flex-direction: column;
+
+}
+
+.aboutPage p
+{
+	color:#777777;
+	margin-left:5px;
+	line-height: 17px;
+	border:0;
+	font-family: verdana,helvetica,sans-serif;
+}
+#introLine
+{
+	color:#439c77;
+	font-family:Georgia,helvetica,sans-serif;
+}
+#Photowithworks
+{
+	display:flex;
+	flex-direction:row;
+}
+#introImage
+{
+	margin-top:69.4px;
+}
+
+.works
+{
+	display:flex;
+	flex-direction: column;
+	position:relative;
+	margin-left:10px;
+	margin-top:69px;
+
+}
+.w
+{
+display:flex;
+flex-direction:row;
+margin-bottom:7px;
+border: 1px solid;
+  	padding: 10px;
+ 	 box-shadow: 2px 1px #D3D3D3;
+}
+
+.theImage
+{
+	width:100px;
+	height:69px;
+	
+}
+.wk
+{
+	color:#0b983c;
+}
+.workText
+{
+	display:flex;
+	flex-direction: column;
+	margin-left:15px;
+}
+.works2
+{
+	display:flex;
+	flex-direction:row;
+
+}
+
+.aboutSections
+{
+	display:flex;
+	flex-direction:column;
+	border: 1px solid;
+  	padding: 10px;
+ 	 box-shadow: 2px 1px #D3D3D3;
+}
+.aboutSections h1
+{
+	color:#439c77;
+	font-size:30px;
+	font-weight:50;
+	letter-spacing: 5px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.Sections
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top:20px;
+}
+.Sections h1
+{
+	color:#666666;
+	font-size:3px;
+}
+.Sections p
+{
+	color:#666666;
+	margin-top:10px;
+	font-size:13px;
+	font-weight: 40;
+	line-height: 25px;
+	font-family: verdana,helvetica,sans-serif;
+}
+.imgs
+{
+	width:200px;
+	height:140px;
+	border-style: groove;
+ border-width: thin;
+ border-color: gray;
+ padding: 5px;
+ 
+}
+.w2
+{
+	display:flex;
+	flex-direction: column;
+}
+
+.aboutSections a
+{
+	color:blue;
+	font-size:15px;
 }
