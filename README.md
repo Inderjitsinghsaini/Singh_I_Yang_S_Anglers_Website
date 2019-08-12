@@ -20,6 +20,6 @@ JS
 
 Inderjit Singh
 
-##License
+## license
 
 [README](www.makeaawesomeReadme.com)
