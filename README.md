@@ -1,21 +1,25 @@
-##singh_I_Anglers_Website
+# TRAA website
 
-#This project is Linked to The Anglers Website
+This is the redevelopment and redesigning of Anglers Website
+
+## installations
 
 
-
-#Things Used
-HTML
-CSS
-
-#Applications Used
-Sublime Text 3
-Github
+Sublime Text3
+Git Bash
 
 
 
-#Contributors
+## Used
+
+Html5
+CSS3
+JS
+
+## Contributors
 
 Inderjit Singh
-Shengrong Yang
 
+##License
+
+[README](www.makeaawesomeReadme.com)
