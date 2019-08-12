@@ -12,22 +12,26 @@
 <body>
 	<main class ="container">
 		<div id="topBorder"></div>
-		<div class="header">
-
-		<a href="index.html" class="logo">
-			<img src="images/logo.png" alt="">
-		</a>
-
-		<div class="nav">
-			<a href="index.html" >HOME</a>
-			<a href="About.html">ABOUT</a>
-			<a href="#">PAST EVENTS</a>
-			<a href="#">PROJECTS</a>
-			<a href="#">NEWSLETTERS</a>
-			<a href="contactUs.html" class="hover">CONTACT US</a>
-		</div>
-
-	</div>
+		<header id = "mainHeader" class ="row">
+      <nav id ="mainNav">
+        <h2 class = "hidden">main navigation</h2>
+        <button id="button"></button>
+        <div id="burgerCon">
+          <ul id="burgerMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="pastevents.html">PAST EVENTS</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="news.html">NEWSLETTERS</a></li>
+            <li><a href="ContactUs.html">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!---main logo-->
+      <div id="logoCon">
+        <img src="images/logo.png" alt="TRAA Logo" id="Logo">
+      </div>
+    </header>
 	<!---contact page stuff--->
 	<section class ="pageContent">
 	<h1 class="hidden">Contact Page</h1>
@@ -60,7 +64,7 @@ Guests are welcome!</h1>
 The TRAA meets every second<br> Wednesday of each month.</p></div></div>
 	</section>
 	<!---contact page ends--->
-	
+	<div class="colouredBands"><h1>TRAA Members</h1></div>
 	<div class="hm_cnt">
 		
 		<div class="cleft">
@@ -127,7 +131,7 @@ The TRAA meets every second<br> Wednesday of each month.</p></div></div>
 
 		<div class="clear"></div>
 	</div>
-	<div class="footer">
+	<footer class="footer">
 		<div class="copy">Copyright © 2019</div>
 		<div class="copys">
 			<a href="#"><img src="images/ft_logo1.jpg" alt=""></a>
@@ -135,7 +139,8 @@ The TRAA meets every second<br> Wednesday of each month.</p></div></div>
 			<a href="#"><img src="images/ft_logo3.jpg" alt=""></a>
 			<a href="#"><img src="images/ft_logo4.jpg" alt=""></a>
 			<a href="#"><img src="images/ft_logo5.jpg" alt=""></a>
-		</div>
+		</footer>
+		<script src="js/main.js"></script>
 	</main>
 	
 </body>
