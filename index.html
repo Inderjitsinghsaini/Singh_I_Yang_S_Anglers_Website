@@ -2,29 +2,35 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link type="text/css" rel="stylesheet" href="css/main.css" />
-<link rel="stylesheet" href="css/reset.css">
+<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link type="text/css" rel="stylesheet" href="css/main.css"/>
+ <link rel="stylesheet" href="css/reset.css">
 <title></title>
 </head>
 
 <body>	
-	
-	<div class="header">
-
-		<a href="index.html" class="logo">
-			<img src="images/logo.png" alt="">
-		</a>
-
-		<div class="nav">
-			<a href="index.html" class="hover">HOME</a>
-			<a href="About.html">ABOUT</a>
-			<a href="#">PAST EVENTS</a>
-			<a href="#">PROJECTS</a>
-			<a href="#">NEWSLETTERS</a>
-			<a href="contactUs.html">CONTACT US</a>
-		</div>
-
-	</div>
+	<div id ="topBorder"></div>
+	<header id = "mainHeader" class ="row">
+      <nav id ="mainNav">
+        <h2 class = "hidden">main navigation</h2>
+        <button id="button"></button>
+        <div id="burgerCon">
+          <ul id="burgerMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="pastevents.html">PAST EVENTS</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="news.html">NEWSLETTERS</a></li>
+            <li><a href="ContactUs.html">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!---main logo-->
+      <div id="logoCon">
+        <img src="images/logo.png" alt="TRAA Logo" id="Logo">
+      </div>
+    </header>
 
 	<div class="hm_top">
 		<p>“ For the enhancement, protection and promotion of a viable,<br>multi-species fishery within the Thames River watershed.</p>
@@ -62,7 +68,7 @@
 
 		<div class="clear"></div>
 	</div>
-
+	<div class="colouredBands"><h1>Latest Work</h1></div>
 	<div class="hm_pro">
 		
 		<div class="pro_item">
@@ -106,6 +112,7 @@
 
 		<div class="clear"></div>
 	</div>
+	<div class="colouredBands"><h1>TRAA Members</h1></div>
 
 	<div class="hm_cnt">
 		
@@ -174,7 +181,7 @@
 		<div class="clear"></div>
 	</div>
 
-	<div class="footer">
+	<footer class="footer">
 		<div class="copy">Copyright © 2019</div>
 		<div class="copys">
 			<a href="#"><img src="images/ft_logo1.jpg" alt=""></a>
@@ -183,7 +190,8 @@
 			<a href="#"><img src="images/ft_logo4.jpg" alt=""></a>
 			<a href="#"><img src="images/ft_logo5.jpg" alt=""></a>
 		</div>
-	</div>
+	</footer>
+	<script src="js/main.js"></script>
 	
 </body>
 </html>
